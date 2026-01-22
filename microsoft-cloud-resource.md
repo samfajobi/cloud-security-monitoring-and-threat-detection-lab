@@ -110,6 +110,70 @@ Understanding these layers makes monitoring and security far more effective.
 
 * Track privilege changes
 * Detect excessive permissions
+* Audit access to critical resources
 
+---
+
+## 📱 Microsoft Intune Admin Center (Device Management)
+
+**Purpose:** Device and application management
+
+**What it manages:**
+
+* Windows, macOS, iOS, Android devices
+* Device compliance policies
+* App deployment
+* Security baselines
+
+**Why it matters for monitoring:**
+
+* Device compliance status
+* Risky or non-compliant endpoints
+* Access enforcement via Conditional Access
+
+➡️ *Only trusted devices should access cloud data.*
+
+---
+
+## 🛡️ Microsoft Defender (XDR)
+
+**Purpose:** Threat detection and response across the organization
+
+**Key components:**
+
+* Defender for Endpoint
+* Defender for Identity
+* Defender for Office 365
+* Defender for Cloud Apps
+
+**Why it matters for monitoring:**
+
+* Security alerts
+* Incident correlation
+* Attack timelines
+* Automated responses
+
+➡️ *Answers the question: “Is an attack happening right now?”*
+
+---
+
+## ☁️🛡️ Microsoft Defender for Cloud
+
+**Purpose:** Cloud Security Posture Management (CSPM) & workload protection
+
+**What it protects:**
+
+* Azure VMs
+* Databases
+* Storage
+* Kubernetes
+* Networks
+
+**Why it matters for monitoring:**
+
+* Security recommendations
+* Misconfigurations
+* Vulnerability assessments
+* Threat detection on workloads
 
 
