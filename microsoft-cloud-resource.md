@@ -35,6 +35,81 @@ Understanding these layers makes monitoring and security far more effective.
 * App registrations & service principals
 * Privileged Identity Management (PIM)
 
+**Why it matters for monitoring:**
+
+* Sign-in logs
+* Risky user activity
+* Privileged role activations
+
+➡️ *Everything in Microsoft Cloud depends on Entra ID.*
+
+---
+
+## 🧑‍💼 Microsoft 365 Admin Center (Productivity Layer)
+
+**Purpose:** Business productivity & collaboration
+
+**Core services:**
+
+* **Exchange Online** → Email & calendars
+* **SharePoint Online** → Document management & intranet
+* **Microsoft Teams** → Chat, meetings & collaboration
+* **OneDrive** → Personal cloud storage
+
+**Why it matters for monitoring:**
+
+* Email threats
+* Data access patterns
+* Collaboration activity
+
+➡️ *This is where day-to-day business happens.*
+
+---
+
+## ☁️ Azure Portal (Infrastructure Layer)
+
+**Purpose:** Cloud infrastructure and application hosting
+
+**Common Azure resources:**
+
+* Virtual Machines
+* App Services
+* Storage Accounts
+* Virtual Networks
+* Databases
+* Azure Monitor & Log Analytics
+
+**Why it matters for monitoring:**
+
+* Resource health
+* Performance metrics
+* Availability & cost
+* Logs and diagnostics
+
+➡️ *This is where workloads actually run.*
+
+---
+
+## 🔑 Azure RBAC (Resource Access Control)
+
+**Purpose:** Authorization for Azure resources
+
+**Common roles:**
+
+* Owner
+* Contributor
+* Reader
+
+**Scope levels:**
+
+* Subscription
+* Resource group
+* Individual resource
+
+**Why it matters for monitoring:**
+
+* Track privilege changes
+* Detect excessive permissions
 
 
 
