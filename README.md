@@ -1,0 +1,2 @@
+# cloud-security-monitoring-and-threat-detection-lab
+This repository documents a hands-on cloud security monitoring and threat detection lab focused on Microsoft security tooling. The goal of this project is to simulate real-world cloud and enterprise attack scenarios, detect them using Microsoft-native security platforms, and document investigation and response workflows as a SOC / Cloud Engineer
