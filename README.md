@@ -42,4 +42,39 @@ It is designed to demonstrate real-world detection, investigation, and response 
 * Impossible travel detection
 * Privilege escalation indicators
 
+### Endpoint Detection
 
+* Malware execution
+* Suspicious command-line activity
+* Endpoint alert investigation
+* Host isolation and response
+
+### Cloud Security Monitoring
+
+* Misconfiguration detection
+* Public exposure alerts
+* Defender for Cloud recommendations
+* Risk prioritization and remediation
+
+### Email Security Monitoring
+
+* Phishing detection
+* Malicious attachment analysis
+* URL reputation analysis
+* User remediation workflows
+
+### SIEM Correlation & Threat Hunting
+
+* Log ingestion into Microsoft Sentinel
+* Analytics rule creation and tuning
+* Incident investigation and enrichment
+* Threat hunting using KQL
+
+---
+
+## ⚠️ Disclaimer
+
+This lab is for **educational and portfolio purposes only**.
+All data and scenarios are conducted in **non-production environments** and do not contain any sensitive information.
+
+---
