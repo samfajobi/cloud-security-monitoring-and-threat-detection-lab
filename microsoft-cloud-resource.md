@@ -176,4 +176,52 @@ Understanding these layers makes monitoring and security far more effective.
 * Vulnerability assessments
 * Threat detection on workloads
 
+➡️ *Focuses on cloud infrastructure, not users.*
+
+---
+
+## 🚀 Azure DevOps (Software Delivery)
+
+**Purpose:** CI/CD and software lifecycle management
+
+**Core features:**
+
+* Repos (Git)
+* Pipelines
+* Boards
+* Artifacts
+
+**Why it matters for monitoring:**
+
+* Deployment visibility
+* Pipeline failures
+* Infrastructure-as-Code changes
+* Release tracking
+
+➡️ *Bridges development and production.*
+
+---
+
+## 🔍 Why This Matters for Cloud Monitoring
+
+Effective cloud monitoring requires visibility across:
+
+* **Identity** (who is accessing)
+* **Devices** (from where)
+* **Infrastructure** (what is running)
+* **Security** (what is happening)
+* **Changes** (what was deployed)
+
+This repository builds on that foundation to monitor, analyze, and secure cloud environments properly.
+
+---
+
+## 📌 Key Takeaway
+
+Microsoft Cloud services are **not duplicates**.
+They are **specialized layers** working together under the same identity system.
+
+Once you understand *which layer does what*, cloud monitoring becomes clearer, more structured, and more powerful.
+
+---
 
