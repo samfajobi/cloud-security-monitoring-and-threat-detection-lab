@@ -24,6 +24,7 @@ It is designed to demonstrate real-world detection, investigation, and response 
 * Microsoft Defender for Identity
 * Microsoft Defender for Office 365
 * Microsoft Sentinel
+* SentinelOne
 
 ### Supporting Technologies
 
