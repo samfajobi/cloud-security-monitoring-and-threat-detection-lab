@@ -1,21 +1,17 @@
-# Microsoft Sentinel
+#  SentinelOne
 
-## Role: SIEM & SOAR
+## Role: Third-party Endpoint Detection & Response
 
 ### Used for:
 
-  * Centralized log ingestion
+  * Endpoint malware detection
 
-  * Threat detection using analytics rules
+  * Behavioral threat analysis
 
-  * Incident management
-
-  * Automated response using playbooks
+  * Providing external security signals to Sentinel
 
 Key outputs:
 
-  * Security incidents
+  * Endpoint alerts
 
-  * KQL queries
-
-  * Automated workflows
+  * Remediation actions
