@@ -201,6 +201,131 @@ Understanding these layers makes monitoring and security far more effective.
 ➡️ *Bridges development and production.*
 
 ---
+ 
+# 🔐 SentinelOne vs Microsoft Sentinel
+
+### *(Endpoint Detection vs Centralized Security Monitoring)*
+
+This repository focuses on **cloud monitoring and security visibility**.
+Two commonly confused tools in this space are **SentinelOne** and **Microsoft Sentinel**.
+Despite the similar names, they serve **very different purposes** in a security architecture.
+
+---
+
+## 🖥️ SentinelOne
+
+**Category:** EDR / XDR (Endpoint Detection & Response)
+
+### What SentinelOne is
+
+SentinelOne is an **endpoint-first security platform** designed to protect individual devices in real time using behavioral analysis and AI-driven detection.
+
+### What it protects
+
+* Windows, macOS, and Linux endpoints
+* Servers and workloads
+* Workstations and laptops
+
+### Core capabilities
+
+* Real-time malware and ransomware detection
+* Behavioral AI threat detection
+* Automated remediation (kill process, isolate device)
+* Ransomware rollback
+* Endpoint visibility and forensic analysis
+
+### Where it operates
+
+* SentinelOne Management Console
+* Lightweight agent installed on endpoints
+
+### Key question it answers
+
+> *“Is this device compromised right now, and how do we stop it?”*
+
+---
+
+## ☁️ Microsoft Sentinel
+
+**Category:** SIEM / SOAR (Security Information & Event Management / Automation)
+
+### What Microsoft Sentinel is
+
+Microsoft Sentinel is a **cloud-native security analytics platform** built on Azure, used to **collect, correlate, and respond to security events across an entire environment**.
+
+### What it monitors
+
+* Azure and on-prem infrastructure logs
+* Microsoft Defender alerts
+* Microsoft Entra ID sign-in logs
+* Network devices (firewalls, VPNs)
+* Third-party security tools (including SentinelOne)
+
+### Core capabilities
+
+* Centralized log collection
+* Threat correlation and analytics
+* Incident creation and investigation
+* Automated response using playbooks
+* Long-term log retention and querying (KQL)
+
+### Where it operates
+
+* Azure Portal
+* Built on Log Analytics and Azure Monitor
+
+### Key question it answers
+
+> *“What is happening across the entire environment?”*
+
+---
+
+## 🔍 Side-by-Side Comparison
+
+| Feature       | SentinelOne                   | Microsoft Sentinel     |
+| ------------- | ----------------------------- | ---------------------- |
+| Category      | EDR / XDR                     | SIEM / SOAR            |
+| Primary focus | Endpoint protection           | Centralized monitoring |
+| Scope         | Individual devices            | Entire environment     |
+| Data source   | Endpoint agent telemetry      | Logs and alerts        |
+| Response      | Endpoint isolation & rollback | Automated workflows    |
+| Platform      | Vendor-managed                | Azure-native           |
+
+---
+
+## 🤝 How They Work Together
+
+In many organizations, **SentinelOne and Microsoft Sentinel are used together**:
+
+1. SentinelOne detects malicious activity on an endpoint
+2. Alert is forwarded to Microsoft Sentinel
+3. Sentinel correlates it with:
+
+   * Identity sign-ins
+   * Network logs
+   * Cloud activity
+4. Automated response is triggered:
+
+   * Disable user account
+   * Create incident
+   * Notify SOC teams
+
+💡 **SentinelOne provides signals**
+💡 **Microsoft Sentinel provides context and orchestration**
+
+---
+
+## 🧠 Key Takeaway
+
+SentinelOne and Microsoft Sentinel are **not competitors**.
+They operate at **different layers** of the security stack:
+
+* **SentinelOne** → Protects endpoints
+* **Microsoft Sentinel** → Monitors and coordinates security across the environment
+
+Understanding this distinction is critical for effective cloud security monitoring.
+
+---
 
 ## 🔍 Why This Matters for Cloud Monitoring
 
