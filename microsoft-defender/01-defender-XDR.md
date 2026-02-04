@@ -10,7 +10,7 @@ It brings together alerts from multiple Defender products and turns them into **
 - Correlates alerts across services
 - Builds attack timelines
 - Enables cross-domain investigation
-- Supports automated response actions
+- Supports automated response actions to stop attacks.
 
 ### What it covers
 - Identities

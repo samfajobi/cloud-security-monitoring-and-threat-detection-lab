@@ -1,17 +1,26 @@
-# Microsoft Defender for Office 365
+## 📧 Microsoft Defender for Office 365
 
-## Role: Email & collaboration security
+**Category:** Email & Collaboration Security
 
-### Used for:
+### Purpose
+Protects **email and collaboration platforms** from phishing and malware-based attacks.
 
-  * Detecting phishing and malware emails
+### What it protects
+- Exchange Online
+- Microsoft Teams
+- SharePoint Online
+- OneDrive
 
-  * Monitoring Teams and SharePoint threats
+### Core capabilities
+- Phishing and malware detection
+- Safe Links and Safe Attachments
+- Threat Explorer investigations
+- User-reported email analysis
 
-  * Investigating user-reported emails
+### Integration
+- Feeds alerts into **Microsoft Defender XDR**
 
-Key outputs:
+### Key point
+**Most attacks start with email — this service detects and stops them early.**
 
-  * Phishing alerts
-
-  * Threat Explorer data
+---
