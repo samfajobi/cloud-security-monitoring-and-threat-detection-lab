@@ -35,6 +35,8 @@ Secures **cloud infrastructure and workloads**, primarily in Azure.
 
 ![Defender-for-cloud](../screenshots/M.S-Defender-for-Cloud.png)
 
+![Defender-for-cloud](../screenshots/M.S-Defender-for-Cloud-1.png)
+
 This dashboard provides a high-level view of the security posture of the Azure subscription.
 It highlights:
 - Secure Score
