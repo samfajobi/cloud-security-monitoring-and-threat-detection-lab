@@ -29,3 +29,16 @@ Secures **cloud infrastructure and workloads**, primarily in Azure.
 **Focuses on cloud infrastructure security, not users or endpoints.**
 
 ---
+
+
+### Defender for Cloud Overview Dashboard
+
+![Defender for Cloud Overview](screenshots/01-overview-dashboard.png)
+
+This dashboard provides a high-level view of the security posture of the Azure subscription.
+It highlights:
+- Secure Score
+- Active security recommendations
+- Current security alerts
+
+This view allows security teams to quickly assess risk exposure across cloud resources.
