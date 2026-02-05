@@ -33,7 +33,7 @@ Secures **cloud infrastructure and workloads**, primarily in Azure.
 
 ### Defender for Cloud Overview Dashboard
 
-![Defender-for-cloud](screenshots/M.S-Defender-for-Cloud.png)
+![Defender-for-cloud](../screenshots/M.S-Defender-for-Cloud.png)
 
 This dashboard provides a high-level view of the security posture of the Azure subscription.
 It highlights:
